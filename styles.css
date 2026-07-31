@@ -11,6 +11,8 @@ body {
     flex-direction: column;
 }
 
+/* HEADER */
+
 .Header {
     display: flex;
     align-items: center;
@@ -22,7 +24,7 @@ body {
 .Logo {
     font-weight: 800;
     font-size: 24px;
-    color: F9FAF8;
+    color: #F9FAF8;
 }
 
 a {
@@ -34,4 +36,47 @@ ul {
     display: flex;
     list-style: none;
     gap: 9px;
+}
+
+/* CONTENT */
+
+.Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Content1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 100px;
+}
+
+.Content1-1 {
+    width: 450px;
+}
+
+.Content1-1-1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.Content1-1-2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.button1 {
+    margin-top: 10px;
 }
