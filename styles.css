@@ -50,7 +50,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 300px;
-    padding: 100px;
+    padding: 110px;
 }
 
 .Content1-1 {
@@ -79,4 +79,77 @@ button {
 
 .button1 {
     margin-top: 10px;
+}
+
+.Content2 {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.Content2-1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.Content2-2 {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.Tinycontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.Tinytxt {
+    margin-top: 8px;
+}
+
+.Box {
+    border: #3882F6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.Content3 {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;    
+    padding: 120px 0 100px 0;
+}
+
+.Content3-1 { 
+    color: #1F2937;
+    font-weight: 300;       
+    max-width: 800px;
+}
+
+.Quote {
+    font-style: italic;
+    font-size: 36px
+}
+
+.Thor {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-style: none;
+}
+
+.Footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding: 35px 0;
 }
