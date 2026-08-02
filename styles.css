@@ -48,8 +48,7 @@ ul {
 .Content1 {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
-    gap: 300px;
+    justify-content: space-around;
     padding: 110px;
 }
 
@@ -82,7 +81,7 @@ button {
 }
 
 .button2 {
-    border: white solid 5px;
+    border: white solid 2px;
 }
 
 .Content2 {
@@ -149,24 +148,20 @@ button {
     font-weight: 500;
     font-style: none;
 }
-
-/* on .Content4 selector, why does the .Container4-1 get taller when the browser is shrunk down is size with the text going from horizontal to vertical and the button getting taller as well */
-
 .Content4 {
     display: flex;
     justify-content: center;
-    padding: 100px;
-    flex-shrink: 0;
-}
-
-.Content4-01 {
-    display: flex;
+    padding: 100px 0;
 }
 
 .Content4-1 { 
     display: flex;
-    justify-content: space-around;
-    padding: 40px 500px;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 30px 300px;
+    gap: 30px;
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
@@ -174,6 +169,12 @@ button {
 
 .Call {
     font-size: 20px;
+}
+
+.button2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Footer {
